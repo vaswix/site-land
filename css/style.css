@@ -187,7 +187,7 @@ header {
 
 .section-products {
     margin: 0 auto;
-    max-width: 1251px;
+    max-width: 1259px;
 }
 
 .products {
@@ -233,12 +233,12 @@ header {
 }
 
 .products-image {
+    width: 100%;
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .item-image {
+    display: inline-block;
     margin: 5px 5px;
     width: 301px;
     height: 293px;
@@ -261,6 +261,7 @@ header {
     font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
     font-size: 42px;
     line-height: 0;
+    text-transform: uppercase;
 }
 
 .our-team-text > p {
@@ -268,6 +269,7 @@ header {
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 27px;
+    width: 478px;
 }
 
 .section-team > .team-images {
@@ -315,6 +317,7 @@ header {
 }
 
 .wrapper-images > .item-image {
+    display: inline-block;
     width: 175px;
     height: 175px;
     background-color: #FF2D2D;
@@ -333,14 +336,45 @@ header {
     color: #F6F2F2;
 }
 
+.text-design {
+    text-align: center;
+}
+
+.text-design > h1 {
+    font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+}
+
+.text-design > p {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
 .form-email > input {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     width: 524px;
-    height: 82px;
+    height: 78px;
+    border-radius: 7px;
+    margin-right: 18px;
+    padding-left: 38px;
+    font-size: 16px;
 }
 
 .form-email > button {
+    background-color: #FF2D2D;
     width: 217px;
     height: 82px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border: #FF2D2D;
+    border-radius: 7px;
 }
 
 .section-contact {
@@ -358,7 +392,7 @@ header {
 }
 
 .form-contact > h1 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 42px;
 }
@@ -416,13 +450,14 @@ header {
 }
 
 .contact-text {
-    text-align: center;
+    margin: 141px 184px 141px 84px;
 }
 
 .contact-text > h5 {
     font-family: "Open Sans Bold", Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: white;
+    text-transform: uppercase;
 }
 
 .contact-text > p {
